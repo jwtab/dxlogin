@@ -1,0 +1,19 @@
+
+#ifndef DLL_MAIN_H_
+#define DLL_MAIN_H_
+
+void DllAddRef();
+void DllRelease();
+
+//{67408D33-B162-41CA-8321-C20907CA9813}
+DEFINE_GUID(CLSID_XCredential, 
+			0x67408d33, 0xb162, 0x41ca, 0x83, 0x21, 0xc2, 0x9, 0x7, 0xca, 0x98, 0x13);
+
+
+struct FIELD_STATE_PAIR
+{
+	CREDENTIAL_PROVIDER_FIELD_STATE cpfs;
+	CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE cpfis;
+};
+
+#endif
