@@ -1,0 +1,110 @@
+
+#ifndef DLL_MAIN_H_
+#define DLL_MAIN_H_
+
+//MSGINA dialog box IDs.p
+#define IDD_WLXDIAPLAYSASNOTICE_DIALOG		  1400
+#define IDD_WLXLOGGEDOUTSAS_DIALOG				1450
+#define IDD_CHANGE_PASSWORD_DIALOG			    1550
+#define IDD_WLXLOGGEDONSAS_DIALOG				  1650
+#define IDD_WLXWKSTALOCKEDSAS_DIALOG           1850
+
+//MSGINA control IDs
+#define IDC_WLXLOGGEDOUTSAS_USERNAME      1502
+#define IDC_WLXLOGGEDOUTSAS_PASSWORD      1503
+
+#define IDC_WLXLOGGEDOUT_STATIC_NAME      1506
+#define IDC_WLXLOGGEDOUT_STATIC_PASSWORD  1507
+
+#define IDC_WLXLOGGEDOUTSAS_STATIC_DOMAIN	    1508
+#define IDC_WLXLOGGEDOUTSAS_DOMAIN			    1504
+
+#define IDC_WLXLOGGEDONSAS_USERNAME 1953
+#define IDC_WLXLOGGEDONSAS_PASSWORD 1954
+
+#define IDC_WLXLOGGEDONSAS_STATIC_NAME 1858
+#define IDC_WLXLOGGEDONSAS_STATIC_PASSWORD 1931
+
+#define IDC_WLXLOGGEDONSAS_STATIC_DOMAIN   1957
+#define IDC_WLXLOGGEDONSAS_DOMAIN          1956
+
+//by self.
+
+#define IDC_GET_CODE_BTN	1561
+#define IDC_STATIC_TYPE		1562
+#define IDC_COMBOBOX_TYPE   1563
+
+#define IDC_WLXLOG_STATIC_TEL 1561
+#define IDC_WLXLOG_STATIC_CODE 1563
+
+#define IDC_WLXLOG_EDIT_TEL 1565
+#define IDC_WLXLOG_EDIT_CODE 1567
+
+#define IDC_WLXLOG_EDIT_NAME 1569
+
+#define IDC_WLXLOG_CBX_GET_TYPE 1598
+#define IDC_WLXLOG_BTN_GET_CODE  1596
+
+//id_ok id_cancel.
+#define  IDC_IDOK 1
+#define  IDC_IDCANCEL 2
+
+#define  IDC_WLXLOGGEDOUTSAS_OPT 1514
+#define  IDC_WLXLOGGEDONSAS_OPT 2401
+
+#define  IDC_WLXLOGGEDOUTSAS_SHUTDOWN 1501
+#define  IDC_WLXLOGGEDONSAS_SHUTDOWN -1
+
+//logon_dialog_type.
+#define LOGONTYPE_OUT_SAS 1
+#define LOGONTYPE_ON_SAS 2
+
+typedef enum GINA_WND_TYPE
+{
+	WND_TYPE_OUT_SAS,
+	WND_TYPE_OUT_LOG,
+	WND_TYPE_ON_SAS,
+	WND_TYPE_ON_LOG,
+
+	WND_TYPE_MAX
+};
+
+#define BMP_FILE_NAME L"XLoginXp.bmp"
+
+class CGinaWndEx
+{
+public:
+	CGinaWndEx();
+	~CGinaWndEx();
+
+public:
+	void SetWnd(HWND hWnd,GINA_WND_TYPE type);
+	BOOL WndProcEx(UINT uMsg,WPARAM wParam,LPARAM lParam);
+
+	void DrawLogo(BOOL bBigPic = FALSE);
+
+	void MakeOK(wchar_t * pwszPassword);
+
+private:
+	void SetWindowText(DWORD id,wchar_t * pwszText);
+	void MakeWnd_SMS(WPARAM wParam,LPARAM lParam);
+
+public:
+	static DWORD WINAPI WorkThread(LPVOID lpParam);
+
+private:
+	HANDLE m_hWatchThread;
+
+	HWND m_hWnd;
+	GINA_WND_TYPE m_wndType;
+
+	HFONT m_hFont;
+};
+
+typedef struct Gina_Wnd_Ex
+{
+	CGinaWndEx * pWndEx;
+	BOOL bInit;
+}GINA_WND_EX,*LPGINA_WND_EX;
+
+#endif

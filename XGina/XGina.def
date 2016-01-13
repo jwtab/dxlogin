@@ -1,0 +1,57 @@
+; XGina.def: Declares the module parameters for the DLL.
+
+LIBRARY      "XGina"
+
+EXPORTS
+    ; Explicit exports can go here
+	MyNoNameFun1                    @1 NONAME
+	MyNoNameFun2                    @2 NONAME
+	MyNoNameFun3                    @3 NONAME
+	MyNoNameFun4                    @4 NONAME
+	MyNoNameFun5                    @5 NONAME
+	MyNoNameFun6                    @6 NONAME
+	MyNoNameFun7                    @7 NONAME
+	MyNoNameFun8                    @8 NONAME
+	MyNoNameFun9                    @9 NONAME
+	MyNoNameFun10                   @10 NONAME
+	MyNoNameFun11                   @11 NONAME
+	MyNoNameFun12                   @12 NONAME
+	MyNoNameFun13                   @13 NONAME
+	MyNoNameFun14                   @14 NONAME
+	MyNoNameFun15                   @15 NONAME
+	MyNoNameFun16                   @16 NONAME
+	MyNoNameFun17                   @17 NONAME
+	MyNoNameFun18                   @18 NONAME
+	MyNoNameFun19                   @19 NONAME
+	MyNoNameFun20                   @20 NONAME
+	MyNoNameFun21                   @21 NONAME
+	MyNoNameFun22                   @22 NONAME
+	MyNoNameFun23                   @23 NONAME
+	MyNoNameFun24                   @24 NONAME
+	MyNoNameFun25                   @25 NONAME
+	MyNoNameFun26                   @26 NONAME
+	MyNoNameFun27                   @27 NONAME
+	MyNoNameFun28                   @28 NONAME
+
+	ShellShutdownDialog				@29
+	WlxActivateUserShell			@30
+	WlxDisconnectNotify				@31
+	WlxDisplayLockedNotice			@32
+	WlxDisplaySASNotice				@33
+	WlxDisplayStatusMessage			@34
+	WlxGetConsoleSwitchCredentials	@35
+	WlxGetStatusMessage				@36
+	WlxInitialize					@37
+	WlxIsLockOk				    	@38
+	WlxIsLogoffOk					@39
+	WlxLoggedOnSAS					@40
+	WlxLoggedOutSAS					@41
+	WlxLogoff						@42
+	WlxNegotiate					@43
+	WlxNetworkProviderLoad			@44
+	WlxReconnectNotify				@45
+	WlxRemoveStatusMessage			@46
+	WlxScreenSaverNotify			@47
+	WlxShutdown						@48
+	WlxStartApplication				@49
+	WlxWkstaLockedSAS				@50	
