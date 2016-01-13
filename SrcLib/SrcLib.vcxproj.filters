@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Algorithm">
+      <UniqueIdentifier>{ae8d7c82-4b18-4bf2-8601-432f580ca71d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm\Base64">
+      <UniqueIdentifier>{ec8c3eb7-c029-44a7-a23a-2321528640eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm\MD5">
+      <UniqueIdentifier>{ecd762c9-dbf9-4ced-b86d-465392c787ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{f1e3eb5a-7c4b-4a37-bdbb-b397bbde4c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\UserCtrl">
+      <UniqueIdentifier>{bc6cb87a-3a5c-4fd9-8f39-04b4e1831c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Lock">
+      <UniqueIdentifier>{13a10a27-2230-4113-a4ea-112be548d83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\SysOS">
+      <UniqueIdentifier>{44ccec2d-c2cc-4c5d-8db6-18b5d07192f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\ServiceCtrl">
+      <UniqueIdentifier>{9cb5ea6a-0539-4360-ad63-24dc127de773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm\SHA1">
+      <UniqueIdentifier>{ccaa9cdf-1380-46fd-baf7-f0a8402dbacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler">
+      <UniqueIdentifier>{59e5a6e5-7053-4703-a58c-9260ffe013f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\Sqlite3">
+      <UniqueIdentifier>{898ebb9d-d161-4c00-862e-14e08d67f7ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\Json">
+      <UniqueIdentifier>{8c2371fc-ea24-4623-8b29-c568706ec88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\Json\src">
+      <UniqueIdentifier>{ba4e0d0b-75b6-4cd6-a8f8-e2986a237946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\Zip">
+      <UniqueIdentifier>{bdecf1ab-7942-4b10-87c7-c412cab60807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\TinyXml">
+      <UniqueIdentifier>{72f3e306-3804-4c0b-ae1e-d1cc805a2865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\Log">
+      <UniqueIdentifier>{bb77b30c-5014-4247-bd17-f0767c9fc542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\CreateProcess">
+      <UniqueIdentifier>{77452bad-765e-43ba-b735-ea289029d5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\ImpersonateLogon">
+      <UniqueIdentifier>{5e1f3d2d-7b39-4c01-b543-bbcf00cbb13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\NTService">
+      <UniqueIdentifier>{c7a3d708-9459-40a0-b443-69548bc1b539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\CatchDump">
+      <UniqueIdentifier>{7b017b35-15ab-4363-850d-06886a87154b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm\SHA256">
+      <UniqueIdentifier>{f479920d-ca6d-493f-8743-eeb09cbc2168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm\LZMA">
+      <UniqueIdentifier>{0ce8584b-cb5a-42c5-894c-939148e4bfba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm\LZMA\Src">
+      <UniqueIdentifier>{900b15fb-a44e-4f5a-9bb0-05cc6a59c737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\KWow64FsRedrt">
+      <UniqueIdentifier>{b2af9cf2-65b8-4acf-8651-deb07db7955d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\Markup">
+      <UniqueIdentifier>{fb76c69c-f894-4d81-a7a5-2b9ecec6d02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Net">
+      <UniqueIdentifier>{72c9a8e1-de13-4b83-bfc1-7e1aeab4dc4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Net\MsSys">
+      <UniqueIdentifier>{9206d86a-521e-43d3-9f5c-b84ee89ff3e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\cJSON">
+      <UniqueIdentifier>{013e73c4-cbbe-413f-870d-0bfdf413ef34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\7zip">
+      <UniqueIdentifier>{6dc52459-dcae-49f0-85ac-925bb843d1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataHandler\UrlDecoder">
+      <UniqueIdentifier>{a4f13918-66f5-4d68-a48f-bc38eda2a4aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\Base64\Base64.h">
+      <Filter>Source Files\Algorithm\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\MD5\MD5.h">
+      <Filter>Source Files\Algorithm\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="System\UserCtrl\UserCtrl.h">
+      <Filter>Source Files\System\UserCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Lock\Lock.h">
+      <Filter>Source Files\System\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="System\SysOS\SysOS.h">
+      <Filter>Source Files\System\SysOS</Filter>
+    </ClInclude>
+    <ClInclude Include="System\ServiceCtrl\ServiceCtrl.h">
+      <Filter>Source Files\System\ServiceCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Sqlite\sqlite3.h">
+      <Filter>Source Files\DataHandler\Sqlite3</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\assertions.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\autolink.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\config.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\features.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\forwards.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\json.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\reader.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\value.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\writer.h">
+      <Filter>Source Files\DataHandler\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\src\json_batchallocator.h">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Json\src\json_tool.h">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Zip\unzip.h">
+      <Filter>Source Files\DataHandler\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Zip\zip.h">
+      <Filter>Source Files\DataHandler\Zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\TinyXml\tinystr.h">
+      <Filter>Source Files\DataHandler\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\TinyXml\tinyxml.h">
+      <Filter>Source Files\DataHandler\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Log\Log.h">
+      <Filter>Source Files\DataHandler\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\SHA1\SHA1.h">
+      <Filter>Source Files\Algorithm\SHA1</Filter>
+    </ClInclude>
+    <ClInclude Include="System\CreateProcess\VistaCreateProcess.h">
+      <Filter>Source Files\System\CreateProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="System\ImpersonateLogon\ImpersonateLogon.h">
+      <Filter>Source Files\System\ImpersonateLogon</Filter>
+    </ClInclude>
+    <ClInclude Include="System\NTService\NTService.h">
+      <Filter>Source Files\System\NTService</Filter>
+    </ClInclude>
+    <ClInclude Include="System\CatchDump\CatchDump.h">
+      <Filter>Source Files\System\CatchDump</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\SHA256\SHA256.h">
+      <Filter>Source Files\Algorithm\SHA256</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\7z.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\7zBuf.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\7zCrc.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\7zFile.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\7zVersion.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Alloc.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Bcj2.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Bra.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\CpuArch.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Delta.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\LzFind.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\LzFindMt.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\LzHash.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Lzma2Dec.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Lzma2Enc.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Lzma86.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\LzmaDec.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\LzmaEnc.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\LzmaLib.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\MtCoder.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\RotateDefs.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Sha256.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Threads.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Types.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\Xz.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\XzCrc64.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\Src\XzEnc.h">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\LZMA\LZMA_Fun.h">
+      <Filter>Source Files\Algorithm\LZMA</Filter>
+    </ClInclude>
+    <ClInclude Include="System\KWow64FsRedrt\KWow64FsRedrt.h">
+      <Filter>Source Files\System\KWow64FsRedrt</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\Markup\Markup.h">
+      <Filter>Source Files\DataHandler\Markup</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\MsSys\NetMsHttp.h">
+      <Filter>Source Files\Net\MsSys</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\cJSON\cJSON.h">
+      <Filter>Source Files\DataHandler\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\7z.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\7zAlloc.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\7zBuf.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\7zCrc.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\7zFile.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\7zInBuf.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\7zlib.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\Bcj2.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\Bra.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\CpuArch.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\Lzma2Dec.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\LzmaDec.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\7zip\Types.h">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClInclude>
+    <ClInclude Include="DataHandler\UrlDecoder\UrlDecoder.h">
+      <Filter>Source Files\DataHandler\UrlDecoder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Base64\Base64.cpp">
+      <Filter>Source Files\Algorithm\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\MD5\MD5.cpp">
+      <Filter>Source Files\Algorithm\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="System\UserCtrl\UserCtrl.cpp">
+      <Filter>Source Files\System\UserCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Lock\Lock.cpp">
+      <Filter>Source Files\System\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="System\SysOS\SysOS.cpp">
+      <Filter>Source Files\System\SysOS</Filter>
+    </ClCompile>
+    <ClCompile Include="System\ServiceCtrl\ServiceCtrl.cpp">
+      <Filter>Source Files\System\ServiceCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Sqlite\sqlite3.c">
+      <Filter>Source Files\DataHandler\Sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Json\src\json_reader.cpp">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Json\src\json_value.cpp">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Json\src\json_writer.cpp">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Zip\unzip.cpp">
+      <Filter>Source Files\DataHandler\Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Zip\zip.cpp">
+      <Filter>Source Files\DataHandler\Zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\TinyXml\tinystr.cpp">
+      <Filter>Source Files\DataHandler\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\TinyXml\tinyxml.cpp">
+      <Filter>Source Files\DataHandler\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\TinyXml\tinyxmlerror.cpp">
+      <Filter>Source Files\DataHandler\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\TinyXml\tinyxmlparser.cpp">
+      <Filter>Source Files\DataHandler\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Log\Log.cpp">
+      <Filter>Source Files\DataHandler\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\SHA1\SHA1.cpp">
+      <Filter>Source Files\Algorithm\SHA1</Filter>
+    </ClCompile>
+    <ClCompile Include="System\CreateProcess\VistaCreateProcess.cpp">
+      <Filter>Source Files\System\CreateProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="System\ImpersonateLogon\ImpersonateLogon.cpp">
+      <Filter>Source Files\System\ImpersonateLogon</Filter>
+    </ClCompile>
+    <ClCompile Include="System\NTService\NTService.cpp">
+      <Filter>Source Files\System\NTService</Filter>
+    </ClCompile>
+    <ClCompile Include="System\CatchDump\CatchDump.cpp">
+      <Filter>Source Files\System\CatchDump</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\SHA256\SHA256.cpp">
+      <Filter>Source Files\Algorithm\SHA256</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zBuf.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zBuf2.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zCrc.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zCrcOpt.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zDec.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zFile.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zIn.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\7zStream.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Alloc.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Bcj2.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Bra.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Bra86.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\BraIA64.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\CpuArch.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Delta.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\LzFind.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\LzFindMt.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Lzma2Dec.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Lzma2Enc.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Lzma86Dec.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Lzma86Enc.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\LzmaDec.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\LzmaEnc.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\LzmaLib.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\MtCoder.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Sha256.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Threads.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\Xz.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\XzCrc64.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\XzDec.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\XzEnc.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\Src\XzIn.c">
+      <Filter>Source Files\Algorithm\LZMA\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\LZMA\LZMA_Fun.cpp">
+      <Filter>Source Files\Algorithm\LZMA</Filter>
+    </ClCompile>
+    <ClCompile Include="System\KWow64FsRedrt\KWow64FsRedrt.cpp">
+      <Filter>Source Files\System\KWow64FsRedrt</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\Markup\Markup.cpp">
+      <Filter>Source Files\DataHandler\Markup</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\MsSys\NetMsHttp.cpp">
+      <Filter>Source Files\Net\MsSys</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\cJSON\cJSON.cpp">
+      <Filter>Source Files\DataHandler\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zAlloc.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zBuf.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zCrc.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zCrcOpt.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zDec.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zFile.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zIn.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zInBuf.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zlib.cpp">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\7zStream.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\Bcj2.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\Bra.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\Bra86.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\CpuArch.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\Lzma2Dec.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\7zip\LzmaDec.c">
+      <Filter>Source Files\DataHandler\7zip</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHandler\UrlDecoder\UelDecoder.cpp">
+      <Filter>Source Files\DataHandler\UrlDecoder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataHandler\Json\src\json_internalarray.inl">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </None>
+    <None Include="DataHandler\Json\src\json_internalmap.inl">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </None>
+    <None Include="DataHandler\Json\src\json_valueiterator.inl">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </None>
+    <None Include="DataHandler\Json\src\sconscript">
+      <Filter>Source Files\DataHandler\Json\src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
